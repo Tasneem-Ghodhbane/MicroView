@@ -1,0 +1,23 @@
+global:
+  scrape_interval: 2s
+  evaluation_interval: 2s
+
+scrape_configs:
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['prometheus:9090']
+
+  - job_name: 'MicroserviceA'
+    static_configs:
+      - targets: ['msa:9090'] 
+   
+    
+  - job_name: 'MicroserviceB'
+    static_configs:
+      - targets: ['msb:9090'] 
+   
+
+  - job_name: 'MicroserviceC'
+    static_configs:
+      - targets: ['msc:9090']
+   

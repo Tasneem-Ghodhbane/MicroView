@@ -1,0 +1,5 @@
+com\pfe\MicroServiceC\controller\ServiceCController.class
+com\pfe\MicroServiceC\service\ServiceBClient.class
+com\pfe\MicroServiceC\MicroServiceCApplication.class
+com\pfe\MicroServiceC\configuration\KafkaConsumerConfig.class
+com\pfe\MicroServiceC\service\KafkaConsumerService.class

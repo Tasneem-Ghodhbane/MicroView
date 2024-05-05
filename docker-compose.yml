@@ -1,0 +1,111 @@
+version: "4"
+services:
+  tempo:
+    image: grafana/tempo:2.2.2
+    container_name: tempo
+    command: [ "-config.file=/etc/tempo.yaml" ]
+    volumes:
+      - ./docker/tempo/tempo.yml:/etc/tempo.yaml:ro
+      - ./docker/tempo/tempo-data:/tmp/tempo
+    ports:
+      - "3127:3100"  # Tempo
+      - "4317:4317" # otel
+    networks:
+      - microview
+
+  loki:
+    image: grafana/loki:main
+    container_name: loki
+    command: [ "-config.file=/etc/loki/local-config.yaml" ]
+    ports:
+      - "3100:3100"
+    networks:
+      - microview
+
+  prometheus:
+    image: prom/prometheus:v2.46.0
+    container_name: prometheus
+    command:
+      - --enable-feature=exemplar-storage
+      - --config.file=/etc/prometheus/prometheus.yml
+    volumes:
+      - ./docker/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    ports:
+      - "9090:9090"
+    networks:
+      - microview
+
+  grafana:
+    image: grafana/grafana:10.1.0
+    container_name: grafana
+    volumes:
+      - ./docker/grafana:/etc/grafana/provisioning/datasources:ro
+      - ./docker/grafana/dashboards:/var/lib/grafana/dashboards #yaani bch ykhali dashboard dima mawjouda
+      - ./docker/grafana/provisioning:/etc/grafana/provisioning/dashboards #thaded dashboard li hashtk biha
+    environment:
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Admin
+      - GF_AUTH_DISABLE_LOGIN_FORM=true
+    ports:
+      - "3027:3000"
+    networks:
+      - microview
+
+  collector:
+    container_name: collector
+    image: otel/opentelemetry-collector-contrib:0.91.0
+    command:
+      - --config=/etc/otelcol-contrib/otel-collector.yml
+    volumes:
+      - ./docker/collector/otel-collector.yml:/etc/otelcol-contrib/otel-collector.yml
+    ports:
+      #- 4316:4318 # OTLP http receiver
+      - 4316:4317
+    depends_on:
+      - loki
+    networks:
+      - microview
+  
+  msa:
+    image: tasneemgh/microview_a:v1 #microservicea:v4 localement
+    container_name: msa
+    ports:
+      - 8088:8088  #8088:8080
+      - 7070:9090
+    networks:
+      - microview
+    environment:
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      SPRING_DATASOURCE_URL: jdbc:postgresql://pfe-postgres-1:5432/microview_db
+      SPRING_DATASOURCE_USERNAME: test
+      SPRING_DATASOURCE_PASSWORD: test
+      #SERVER_PORT:8080 To change the port
+
+
+  msb:
+    image: tasneemgh/microview_b:v1
+    container_name: msb
+    ports:
+      - 8081:8081
+      - 7171:9090
+    networks:
+      - microview
+    environment:
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      SERVICEA_URL: msa:8088
+      
+  msc:
+    image: tasneemgh/microview_c:v1
+    container_name: msc
+    ports:
+      - 8082:8082 
+      - 7272:9090
+    networks:
+      - microview
+    environment:
+      SPRING_KAFKA_BOOTSTRAP_SERVERS: kafka:9092
+      SERVICEA_URL: msb:8081
+
+networks:
+  microview:
+    name: microview

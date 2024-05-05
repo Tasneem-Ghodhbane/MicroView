@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tempo-deployment
+  labels:
+    app: tempo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tempo
+  template:
+    metadata:
+      labels:
+        app: tempo
+    spec:
+      containers:
+      - name: tempo
+        image: grafana/tempo:2.4.1
+        args:
+          - "--config.file=/tmp/tempo.yaml"
+        ports:
+        - containerPort: 3200
+        - containerPort: 3100 #loki
+        - containerPort: 4317 #otel
+        volumeMounts:
+        - mountPath: /tmp/
+          name: tempo-config
+          readOnly: false  # Ensure this property is set to false
+      volumes:
+        - name: tempo-config
+          configMap:
+            defaultMode: 420
+            name: tempo-config
+
+--- #multiple yaml configuration within 1 file
+apiVersion: v1
+kind: Service
+metadata:
+  name: tempo-service
+spec:
+  selector:
+    app: tempo
+  ports:
+    - name: fetch
+      protocol: TCP
+      port: 3200 
+      targetPort: 3200 
+    - name: otlp-grpc
+      protocol: TCP
+      port: 4317 #l service accessible fel cluster bl @ip te3ou w bl port tajjm t7otnfs l port maa l container kima tajjm lee
+      targetPort: 4317 #container port ya3ni l port mta3 l pods that belongs to the service
+ 

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47d8735e-2042-42ea-a304-f003e7b3430f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/configuration/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/configuration/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/configuration/ObservationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/controller/ServiceAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/controller/ServiceAController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/services/KafkaProducerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/services/KafkaProducerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceB/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceB/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceB/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/MicroServiceBApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/MicroServiceBApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/configuration/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/configuration/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/configuration/ObservationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/controller/ServiceBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/controller/ServiceBController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceB/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceB/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceB/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceC/MicroServiceCApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceC/MicroServiceCApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceC/configuration/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceC/configuration/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceC/configuration/ObservationConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceC/service/KafkaConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceC/service/KafkaConsumerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker/docker-compose.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2cP1EK4EzqyNyRhfRHlhiZHdtrK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/alyao/Desktop/me/school/Pfe/Microview-v3/MicroServiceC"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alyao\Desktop\me\school\Pfe\Microview-v2\Microview\MicroServiceC" />
+      <recent name="C:\Users\alyao\Desktop\me\school\Pfe\MicroView-S\Microview-v1\MicroServiceC\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pfe.MicroServiceC.configuration" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install -DskipTests" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="MicroserviceC" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.pfe.MicroServiceC.MicroServiceCApplication" />
+      <module name="MicroServiceC" />
+      <option name="VM_PARAMETERS" value="-javaagent:C:\opentelemetry-javaagent.jar -Dotel.metrics.exporter=prometheus -Dotel.exporter.prometheus.port=9466 -Dotel.logs.exporter=otlp -Dotel.exporter.otlp.logs.endpoint=http://localhost:4316/v1/logs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47d8735e-2042-42ea-a304-f003e7b3430f" name="Changes" comment="" />
+      <created>1707998287920</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707998287920</updated>
+    </task>
+    <servers />
+  </component>
+</project>

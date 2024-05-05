@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: zookeeper
+  labels:
+    app: zookeeper
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: zookeeper
+  template:
+    metadata:
+      labels:
+        app: zookeeper
+    spec:
+      containers:
+      - name: zookeeper
+        image: confluentinc/cp-zookeeper:latest
+        ports:
+        - containerPort: 2181
+          name: client-port
+        env:
+        - name: ZOOKEEPER_CLIENT_PORT
+          value: "2181"
+        - name: ZOOKEEPER_TICK_TIME
+          value : "2000"
+        
+--- #multiple yaml configuration within 1 file
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: zookeeper-service
+spec:
+  selector:
+    app: zookeeper
+  ports:
+    - protocol: TCP
+      port: 22181 #l service accessible fel cluster bl @ip te3ou w bl port tajjm t7otnfs l port maa l container kima tajjm lee
+      targetPort: 2181 #container port ya3ni l port mta3 l pods that belongs to the service

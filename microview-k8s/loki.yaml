@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: loki-deployment
+  labels:
+    app: loki
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: loki
+  template:
+    metadata:
+      labels:
+        app: loki
+    spec:
+      containers:
+      - name: loki
+        image: grafana/loki:main
+        ports:
+        - containerPort: 3100
+--- #multiple yaml configuration within 1 file
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: loki-service
+spec:
+  selector:
+    app: loki
+  ports:
+    - protocol: TCP
+      port: 3100 #l service accessible fel cluster bl @ip te3ou w bl port tajjm t7otnfs l port maa l container kima tajjm lee
+      targetPort: 3100 #container port ya3ni l port mta3 l pods that belongs to the service
+      
