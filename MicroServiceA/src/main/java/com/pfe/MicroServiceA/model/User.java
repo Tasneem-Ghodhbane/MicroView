@@ -1,4 +1,4 @@
-package com.pfe.MicroServiceA.entity;
+package com.pfe.MicroServiceA.model;
 import jakarta.persistence.*;
 
 @Entity

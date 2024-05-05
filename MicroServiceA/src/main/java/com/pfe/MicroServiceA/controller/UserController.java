@@ -1,7 +1,8 @@
 package com.pfe.MicroServiceA.controller;
 
-import com.pfe.MicroServiceA.entity.User;
+
 import com.pfe.MicroServiceA.services.UserService;
+import com.pfe.MicroServiceA.model.User;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

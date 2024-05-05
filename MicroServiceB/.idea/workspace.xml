@@ -6,17 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="0e172183-8bcb-42b9-9cb7-1de36ef87c31" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../MicroServiceA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/configuration/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/configuration/KafkaProducerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/MicroServiceBApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/MicroServiceBApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/configuration/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/configuration/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/controller/ServiceBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/controller/ServiceBController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/MicroServiceCApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/MicroServiceCApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/configuration/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/configuration/KafkaConsumerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/resources/logback-spring.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +50,12 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/alyao/Desktop/me/school/Pfe/Microview-v2/MicroServiceB/src/main/resources/logback-spring.xml",
-    "two.files.diff.last.used.file": "C:/Users/alyao/Desktop/me/school/Pfe/Microview-v2/MicroServiceB/src/main/resources/logback-spring.xml"
+    "last_opened_file_path": "C:/Users/alyao/Desktop/me/school/Pfe/MicroView-S/Microview-v1/MicroServiceB"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\alyao\Desktop\me\school\Pfe\Microview-v2\Microview\MicroServiceB" />
       <recent name="C:\Users\alyao\Desktop\me\school\Pfe\MicroView-S\Microview-v1\MicroServiceB\src\main\resources" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.pfe.MicroServiceB.configuration" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

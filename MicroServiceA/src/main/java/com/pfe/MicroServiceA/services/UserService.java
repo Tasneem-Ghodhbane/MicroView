@@ -1,8 +1,8 @@
 package com.pfe.MicroServiceA.services;
 
-import com.pfe.MicroServiceA.entity.User;
-import com.pfe.MicroServiceA.repository.UserRepository;
+import com.pfe.MicroServiceA.model.User;
 import org.springframework.stereotype.Service;
+import com.pfe.MicroServiceA.repository.UserRepository;
 
 import java.util.List;
 import java.util.Optional;
@@ -52,4 +52,5 @@ public class UserService {
         userRepository.deleteById(id);
     }
 
+    // Other business logic related to users
 }

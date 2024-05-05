@@ -6,17 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="08330f60-92f0-4c1b-b7b3-256e77d3f874" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceA/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceA/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceA/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceA/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceA/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceA/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceA/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceA/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceA/configuration/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceA/configuration/KafkaProducerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceA/configuration/KafkaTopicConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceB/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceB/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/MicroServiceBApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/MicroServiceBApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/configuration/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/configuration/KafkaConsumerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/controller/ServiceBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceB/src/main/java/com/pfe/MicroServiceB/controller/ServiceBController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceB/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceB/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceB/src/main/resources/logback-spring.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/MicroServiceCApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/MicroServiceCApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/configuration/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/configuration/KafkaConsumerConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/resources/logback-spring.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +49,18 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alyao/Desktop/me/school/Pfe/Microview-v2/MicroServiceB&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/alyao/Desktop/me/school/Pfe/Microview-v2/Microview/MicroServiceA/Dockerfile&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/alyao/Desktop/me/school/Pfe/MicroView-S/Microview-v1/MicroServiceB&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pfe.MicroServiceA.controller" />
+      <recent name="com.pfe.MicroServiceA.services" />
+      <recent name="repository" />
+      <recent name="model" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MicroServiceAApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pfe.MicroServiceA.MicroServiceAApplication" />
