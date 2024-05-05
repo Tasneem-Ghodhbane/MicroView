@@ -1,6 +1,7 @@
 package com.pfe.MicroServiceB.controller;
 
 import com.pfe.MicroServiceB.service.ServiceAClient;
+import io.micrometer.observation.annotation.Observed;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

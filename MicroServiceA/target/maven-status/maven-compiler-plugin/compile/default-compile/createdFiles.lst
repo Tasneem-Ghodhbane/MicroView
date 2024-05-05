@@ -1,8 +1,0 @@
-com\pfe\MicroServiceA\controller\ServiceAController.class
-com\pfe\MicroServiceA\configuration\KafkaProducerConfig.class
-com\pfe\MicroServiceA\services\UserService.class
-com\pfe\MicroServiceA\controller\UserController.class
-com\pfe\MicroServiceA\repository\UserRepository.class
-com\pfe\MicroServiceA\entity\User.class
-com\pfe\MicroServiceA\MicroServiceAApplication.class
-com\pfe\MicroServiceA\services\KafkaProducerService.class

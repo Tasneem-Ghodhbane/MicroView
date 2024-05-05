@@ -5,133 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e172183-8bcb-42b9-9cb7-1de36ef87c31" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../K8S/kafka.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../K8S/msa.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../K8S/msb.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../K8S/msc.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../K8S/postgres-config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../K8S/postgres-secret.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../K8S/postgres.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../K8S/zk.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/opentelemetry-javaagent.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/MicroServiceA-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/MicroServiceA-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/classes/com/pfe/MicroServiceA/MicroServiceAApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/classes/com/pfe/MicroServiceA/configuration/KafkaProducerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/classes/com/pfe/MicroServiceA/controller/ServiceAController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/classes/com/pfe/MicroServiceA/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/classes/com/pfe/MicroServiceA/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/classes/com/pfe/MicroServiceA/repository/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/classes/com/pfe/MicroServiceA/services/KafkaProducerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/classes/com/pfe/MicroServiceA/services/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceA/target/test-classes/com/pfe/MicroServiceA/MicroServiceAApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/opentelemetry-javaagent.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/MicroServiceB-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/MicroServiceB-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pfe/MicroServiceB/MicroServiceBApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pfe/MicroServiceB/configuration/KafkaConsumerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pfe/MicroServiceB/controller/ServiceBController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pfe/MicroServiceB/service/KafkaConsumerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pfe/MicroServiceB/service/ServiceAClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/pfe/MicroServiceB/MicroServiceBApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/opentelemetry-javaagent.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/MicroServiceC-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/MicroServiceC-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/classes/com/pfe/MicroServiceC/MicroServiceCApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/classes/com/pfe/MicroServiceC/configuration/KafkaConsumerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/classes/com/pfe/MicroServiceC/controller/ServiceCController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/classes/com/pfe/MicroServiceC/service/KafkaConsumerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/classes/com/pfe/MicroServiceC/service/ServiceBClient.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MicroServiceC/target/test-classes/com/pfe/MicroServiceC/MicroServiceCApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/collector/otel-collector.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/grafana/dashboard.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/grafana/dashboards/JMX.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/grafana/dashboards/JVM.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/grafana/datasource.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/grafana/provisioning/dashboard.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/prometheus/prometheus.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/0e3abd10-aa92-4f5b-a8fc-ba3fa4e4e86c/bloom-0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/0e3abd10-aa92-4f5b-a8fc-ba3fa4e4e86c/data.parquet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/0e3abd10-aa92-4f5b-a8fc-ba3fa4e4e86c/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/798b948e-3ae2-454d-9452-be60fbd46787/bloom-0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/798b948e-3ae2-454d-9452-be60fbd46787/data.parquet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/798b948e-3ae2-454d-9452-be60fbd46787/meta.compacted.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/96f41fd8-eb0a-4550-8d27-5a499e757fec/bloom-0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/96f41fd8-eb0a-4550-8d27-5a499e757fec/data.parquet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/96f41fd8-eb0a-4550-8d27-5a499e757fec/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/b126e73f-d0c3-438e-a3bd-db4ddfff1012/bloom-0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/b126e73f-d0c3-438e-a3bd-db4ddfff1012/data.parquet" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/b126e73f-d0c3-438e-a3bd-db4ddfff1012/meta.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/single-tenant/index.json.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo-data/blocks/tempo_cluster_seed.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../docker/tempo/tempo.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceA/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceA/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/configuration/KafkaProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/configuration/KafkaProducerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/controller/ServiceAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/controller/ServiceAController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/services/KafkaProducerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/services/KafkaProducerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/java/com/pfe/MicroServiceA/services/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceA/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceA/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/MicroServiceBApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/MicroServiceBApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/configuration/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/configuration/KafkaConsumerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/controller/ServiceBController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pfe/MicroServiceB/controller/ServiceBController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceC/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceC/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/MicroServiceCApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/MicroServiceCApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/configuration/KafkaConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/configuration/KafkaConsumerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/service/KafkaConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/src/main/java/com/pfe/MicroServiceC/service/KafkaConsumerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MicroServiceC/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docker/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MicroServiceC/src/main/resources/logback-spring.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +50,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/alyao/Desktop/me/school/Pfe/Microview-v3/MicroServiceC",
+    "last_opened_file_path": "C:/Users/alyao/Desktop/me/school/Pfe/Microview-v2/MicroServiceB/src/main/resources/logback-spring.xml",
     "two.files.diff.last.used.file": "C:/Users/alyao/Desktop/me/school/Pfe/Microview-v2/MicroServiceB/src/main/resources/logback-spring.xml"
   }
 }]]></component>
@@ -177,21 +62,6 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pfe.MicroServiceB.configuration" />
     </key>
-  </component>
-  <component name="RunAnythingCache">
-    <option name="myCommands">
-      <command value="mvn clean install -DskipTests" />
-    </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="MicroserviceB" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.pfe.MicroServiceB.MicroServiceBApplication" />
-      <module name="MicroServiceB" />
-      <option name="VM_PARAMETERS" value="-javaagent:C:\opentelemetry-javaagent.jar -Dotel.metrics.exporter=prometheus -Dotel.exporter.prometheus.port=9432 -Dotel.logs.exporter=otlp -Dotel.exporter.otlp.logs.endpoint=http://localhost:4316/v1/logs" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

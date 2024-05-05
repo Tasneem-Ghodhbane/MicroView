@@ -1,5 +1,0 @@
-com\pfe\MicroServiceB\controller\ServiceBController.class
-com\pfe\MicroServiceB\service\ServiceAClient.class
-com\pfe\MicroServiceB\configuration\KafkaConsumerConfig.class
-com\pfe\MicroServiceB\MicroServiceBApplication.class
-com\pfe\MicroServiceB\service\KafkaConsumerService.class
